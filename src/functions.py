@@ -194,7 +194,7 @@ def extract_title(markdown):
             return block[2:].strip()
     raise Exception("title not found") # will change Exception to be more general
 
-def generate_page(from_path, template_path, dest_path):
+def generate_page(from_path, template_path, dest_path, basepath):
     print(f"Generating page from {from_path} to {dest_path} using {template_path}")
     md = open(from_path).read()
     template = open(template_path).read()
@@ -203,12 +203,14 @@ def generate_page(from_path, template_path, dest_path):
     title = extract_title(md)
     new_html = template.replace("{{ Title }}", title)
     new_html = new_html.replace("{{ Content }}", html)
+    new_html = new_html.replace('href="/', f'href="{basepath}')
+    new_html = new_html.replace('src="/', f'src="{basepath}')
     dirs = os.path.dirname(dest_path)
     if dirs:
         os.makedirs(dirs, exist_ok=True)
     open(dest_path, "w").write(new_html)
 
-def generate_website(from_path_dir, template_path, dest_path_dir):
+def generate_website(from_path_dir, template_path, dest_path_dir, basepath):
     entries = os.listdir(from_path_dir)
     for entry in entries:
         src_entry = os.path.join(from_path_dir, entry)
@@ -216,6 +218,6 @@ def generate_website(from_path_dir, template_path, dest_path_dir):
         if os.path.isfile(src_entry):
             if src_entry.endswith(".md"):
                 dest_entry = dest_entry[:-2] + "html"
-                generate_page(src_entry, template_path, dest_entry)
+                generate_page(src_entry, template_path, dest_entry, basepath)
         elif os.path.isdir(src_entry):
-            generate_website(src_entry, template_path, dest_entry)
+            generate_website(src_entry, template_path, dest_entry, basepath)
