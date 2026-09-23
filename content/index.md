@@ -2,35 +2,35 @@
 
 AI Usage Framework for **COMP1007 Technical Communications** created by Brandon Squires.
 
-## Purpose/Audience
+### Purpose/Audience
 
 - 
 
-## Task/Information
+### Task/Information
 
 - 
 
-## Benefits/Risks
+### Benefits/Risks
 
 - 
 
-## AI Involvement
+### AI Involvement
 
 - 
 
-## Privacy/Confidentiality
+### Privacy/Confidentiality
 
 - 
 
-## Accuracy/Verification
+### Accuracy/Verification
 
 - 
 
-## Bias/Ethics/IP
+### Bias/Ethics/IP
 
 - 
 
-## My Guardrails
+### My Guardrails
 
 - 
 
