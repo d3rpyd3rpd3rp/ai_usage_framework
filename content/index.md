@@ -1,23 +1,37 @@
-# Tolkien Fan Club
+# AI Usage Framework
 
-Here's the deal, **I like Tolkien**.
+AI Usage Framework for **COMP1007 Technical Communications** created by Brandon Squires.
 
-> "I am in fact a Hobbit in all but size."
->
-> -- J.R.R. Tolkien
-
-## Blog posts
+## Purpose/Audience
 
 - 
 
-## Reasons I like Tolkien
+## Task/Information
 
 - 
 
-## My favorite characters (in order)
+## Benefits/Risks
 
 - 
 
-Want to get in touch? [Contact me here](/contact).
+## AI Involvement
+
+- 
+
+## Privacy/Confidentiality
+
+- 
+
+## Accuracy/Verification
+
+- 
+
+## Bias/Ethics/IP
+
+- 
+
+## My Guardrails
+
+- 
 
 This site was generated with a custom-built [static website generator](https://github.com/d3rpyd3rpd3rp/static_website_generator) from the course on [Boot.dev](https://www.boot.dev).
