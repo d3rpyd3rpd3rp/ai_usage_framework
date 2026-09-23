@@ -1,1 +1,1 @@
-# static_website_generator
+# ai_usage_framework
