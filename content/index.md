@@ -1,7 +1,5 @@
 # AI Usage Framework
 
-AI Usage Framework for **COMP1007 Technical Communications** created by Brandon Squires.
-
 ### Purpose/Audience
 
 - Speed along work
@@ -18,7 +16,7 @@ AI Usage Framework for **COMP1007 Technical Communications** created by Brandon 
 
 - Non-confidential data
 
-### Benefits/Risks
+### Benefits/Risks.
 
 - Work can get done faster
 - Can focus on more important work
