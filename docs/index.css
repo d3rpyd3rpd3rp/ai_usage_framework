@@ -1,6 +1,6 @@
 body {
-  background-color: #1f1c25;
-  color: #f0e6d1;
+  background-color: #793d3d;
+  color: #c4c4c4;
   font-family: "Luminari", "Georgia", serif;
   line-height: 1.7;
   margin: 0;
@@ -20,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #dda15e;
+  color: #21945e;
   margin-top: 24px;
   margin-bottom: 16px;
   text-shadow: 2px 2px 4px #000;
@@ -45,14 +45,14 @@ h6 {
 }
 
 a {
-  color: #e0a96d;
+  color: #6d75e0;
   text-decoration: none;
-  border-bottom: 2px solid #e0a96d;
+  border-bottom: 2px solid #6d75e0;
 }
 
 a:hover {
-  color: #f4a261;
-  border-color: #f4a261;
+  color: #adb2ff;
+  border-color: #adb2ff;
 }
 
 ul,

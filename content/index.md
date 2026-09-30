@@ -1,49 +1,31 @@
 # AI Usage Framework
 
-### Purpose/Audience
+This website is hosted using GitHub's Pages feature, with the information being hosted from my [AI Usage Framework](https://github.com/d3rpyd3rpd3rp/ai_usage_framework) repository
 
-- Speed along work
-- Do menial tasks
+### Purposes
 
-- Employer
-- Coworkers
-- Client
+[What is the purpose for using AI?](/pages/purposes)
 
-### Task/Information
+### Audiences
 
-- Grammar checking
-- Formatting email/document
+[Who is the recipient of my work?](/pages/audiences)
 
-- Non-confidential data
+### Tasks
 
-### Benefits/Risks.
+[What is the AI going to be doing?](/pages/tasks)
 
-- Work can get done faster
-- Can focus on more important work
+### Risks
 
-- Could look ingenuine
-- Could contain incorrect information
+[What are the downsides of using AI in this context?](/pages/risks)
 
-### AI Involvement
+### Guardrails
 
-- Will only be involved in formatting work
-- Will not be used for data collection or utilization of real data (only dummy data)
+[What protections are in place?](/pages/guardrails)
 
-### Privacy/Confidentiality
+### Verification
 
-- Data used will not contain confidential information
+[How will the results be verified?](/pages/verification)
 
-### Accuracy/Verification
+### Credit
 
-- Data will be input after AI to validate
-
-### Bias/Ethics/IP
-
-- I believe in the future of AI being used in the workplace as a tool, not an additional worker
-
-### My Guardrails
-
-- AI will not be used for the bulk of my work
-- It will not be used for a one-off message (Teams/Quick Email)
-
-This site was generated with a custom-built [static website generator](https://github.com/d3rpyd3rpd3rp/static_website_generator) from the course on [Boot.dev](https://www.boot.dev).
+This site was generated with a custom-built [static website generator](https://github.com/d3rpyd3rpd3rp/static_website_generator) from the [course on Boot.dev](https://www.boot.dev/courses/build-static-site-generator-python).
